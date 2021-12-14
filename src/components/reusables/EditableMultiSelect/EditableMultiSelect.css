@@ -1,0 +1,32 @@
+.multiple-select {
+  border: 1px solid var(--light-bg-grey);
+  border-radius: .75rem;
+  padding: 1rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.multiple-select-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .8rem;
+  padding: .3rem .5rem;
+  text-transform: capitalize;
+}
+.multiple-select-item:hover {
+  background-color: var(--primary-blue);
+  color: white !important;
+  cursor: pointer;
+}
+.active-bg {
+  color: var(--primary-blue);
+}
+.active-bg:hover {
+  color: white !important;
+}
+
+.circle-icon {
+  font-size: .8rem;
+}
